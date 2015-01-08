@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Cleroth (Moblix) -->
+<droplist xsi:noNamespaceSchemaLocation="droplist.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_t name="Amphis">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="SnakeMeat" prob="25"/>
+			<item_t name="SnakeSkin" prob="20"/>
+			<item_t name="SnakeTeeth" prob="20"/>
+			<item_t name="SnakeTongue" prob="17"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="2500"/>
+			<item_t name="NecklaceOfPoisonPro" prob="30"/>
+			<item_t name="NecklaceOfSufferent" prob="7"/>
+			<item_t name="NecklaceOfMedusa" prob="1"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Beholder">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="10000"/>
+			<item_t name="CancelManual" prob="21"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Cannibal-Plant">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="500"/>
+			<item_t name="RubyRing" prob="500"/>
+			<item_t name="RingofWizard" prob="500"/>
+			<item_t name="LuckyGoldRing" prob="200"/>
+			<item_t name="SapphireRing" prob="200"/>
+			<item_t name="RingofMage" prob="200"/>
+			<item_t name="EmeraldRing" prob="50"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Clay-Golem">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="LumpofClay" prob="20"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="8000"/>
+			<item_t name="NecklaceOfAirEle" prob="20"/>
+			<item_t name="NecklaceOfMerien" prob="20"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Cyclops">
+		<tier_t type="secondary" prob="998">
+			<item_t name="CyclopsMeat" prob="20"/>
+			<item_t name="CyclopsHeart" prob="15"/>
+			<item_t name="CyclopsEye" prob="10"/>
+			<item_t name="CyclopsHandEdge" prob="8"/>
+			<item_t name="CyclopsLeather" prob="8"/>
+			<item_t name="nothing" prob="1000"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="MagicNecklace(DF+10)" prob="500"/>
+			<item_t name="MagicNecklace(RM10)" prob="500"/>
+			<item_t name="RingofOgrepower" prob="15"/>
+			<item_t name="MagicNecklace(DM+1)" prob="10"/>
+			<item_t name="MagicNecklace(MS10)" prob="10"/>
+			<item_t name="NecklaceOfLightPro" prob="5"/>
+			<item_t name="NecklaceOfFirePro" prob="5"/>
+			<item_t name="CancelManual" prob="1"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Dark-Elf">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="1500"/>
+			<item_t name="DarkElfBow" prob="10"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Demon">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="950"/>
+			<item_t name="DemonMeat" prob="30"/>
+			<item_t name="DemonLeather" prob="20"/>
+			<item_t name="DemonEye" prob="15"/>
+			<item_t name="DemonHeart" prob="10"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MassFireStrikeManual" prob="400"/>
+			<item_t name="RingofDemonpower" prob="200"/>
+			<item_t name="NecklaceOfEfreet" prob="150"/>
+			<item_t name="BloodAxe" prob="100"/>
+			<item_t name="BloodRapier" prob="100"/>
+			<item_t name="BloodSword" prob="50"/>
+			<item_t name="BloodyShockW.Manual" prob="30"/>
+			<item_t name="DemonSlayer" prob="25"/>
+			<item_t name="NecklaceOfXelima" prob="20"/>
+			<item_t name="ResurWand(MS.10)" prob="17"/>
+			<item_t name="ResurWand(MS.20)" prob="15"/>
+			<item_t name="BerserkWand(MS.10)" prob="10"/>
+			<item_t name="BerserkWand(MS.20)" prob="5"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="DireBoar">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="700"/>
+			<item_t name="GoldenAxe(LLF)" prob="300"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Ettin">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="NecklaceOfEfreet" prob="100"/>
+			<item_t name="MassFireStrikeManual" prob="80"/>
+			<item_t name="BloodAxe" prob="50"/>
+			<item_t name="BloodRapier" prob="50"/>
+			<item_t name="RingofDemonpower" prob="50"/>
+			<item_t name="BloodSword" prob="25"/>
+			<item_t name="NecklaceOfMerien" prob="20"/>
+			<item_t name="BloodyShockW.Manual" prob="20"/>
+			<item_t name="DemonSlayer" prob="15"/>
+			<item_t name="BerserkWand(MS.10)" prob="5"/>
+			<item_t name="E.S.W.Manual" prob="5"/>
+			<item_t name="GiantBattleHammer" prob="4"/>
+			<item_t name="BerserkWand(MS.20)" prob="3"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Frost">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MagicWand(M.Shield)" prob="1000"/>
+			<item_t name="RingofGrandMage" prob="50"/>
+			<item_t name="IceStormManual" prob="40"/>
+			<item_t name="NecklaceOfIcePro" prob="40"/>
+			<item_t name="SwordofIceElemental" prob="35"/>
+			<item_t name="MagicWand(MS30-LLF)" prob="30"/>
+			<item_t name="NecklaceOfIceEle" prob="20"/>
+			<item_t name="RingofArchmage" prob="5"/>
+			<item_t name="StormBringer" prob="2"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Gagoyle">
+		<tier_t type="secondary" prob="998">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="RingofDemonpower" prob="20000"/>
+			<item_t name="MassFireStrikeManual" prob="8000"/>
+			<item_t name="NecklaceOfEfreet" prob="6000"/>
+			<item_t name="RingofDragonpower" prob="4000"/>
+			<item_t name="BloodyShockW.Manual" prob="1400"/>
+			<item_t name="RingoftheXelima" prob="1100"/>
+			<item_t name="DarkExecutor" prob="400"/>
+			<item_t name="XelimaBlade" prob="300"/>
+			<item_t name="XelimaAxe" prob="300"/>
+			<item_t name="XelimaRapier" prob="300"/>
+			<item_t name="Excaliber" prob="150"/>
+			<item_t name="RingoftheAbaddon" prob="70"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Giant-Ant">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="300"/>
+			<item_t name="AntLeg" prob="17"/>
+			<item_t name="AntFeeler" prob="15"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="2500"/>
+			<item_t name="NecklaceOfPoisonPro" prob="30"/>
+			<item_t name="NecklaceOfSufferent" prob="7"/>
+			<item_t name="NecklaceOfMedusa" prob="1"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Giant-Frog">
+		<tier_t type="secondary" prob="998">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="nothing" prob="1500"/>
+			<item_t name="RubyRing" prob="100"/>
+			<item_t name="RingofWizard" prob="100"/>
+			<item_t name="RingofOgrepower" prob="100"/>
+			<item_t name="LuckyGoldRing" prob="30"/>
+			<item_t name="SapphireRing" prob="30"/>
+			<item_t name="RingofMage" prob="30"/>
+			<item_t name="RingofDemonpower" prob="30"/>
+			<item_t name="EmeraldRing" prob="10"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Hellbound">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="HelboundTeeth" prob="9"/>
+			<item_t name="HelboundClaw" prob="8"/>
+			<item_t name="HelboundLeather" prob="7"/>
+			<item_t name="HelboundTail" prob="6"/>
+			<item_t name="HelboundHeart" prob="5"/>
+			<item_t name="HelboundTongue" prob="4"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MagicNecklace(DF+10)" prob="150"/>
+			<item_t name="MagicNecklace(RM10)" prob="150"/>
+			<item_t name="RingofOgrepower" prob="15"/>
+			<item_t name="MagicNecklace(DM+1)" prob="10"/>
+			<item_t name="MagicNecklace(MS10)" prob="10"/>
+			<item_t name="NecklaceOfLightPro" prob="5"/>
+			<item_t name="NecklaceOfFirePro" prob="5"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Hellclaw">
+		<tier_t type="primary" prob="970">
+			<item_t name="nothing" prob="1400"/>
+			<item_t name="PlateMail(M)" prob="17"/>
+			<item_t name="PlateMail(W)" prob="17"/>
+			<item_t name="Hauberk(M)" prob="17"/>
+			<item_t name="Hauberk(W)" prob="17"/>
+			<item_t name="PlateLeggings(M)" prob="17"/>
+			<item_t name="PlateLeggings(W)" prob="17"/>
+			<item_t name="ChainHose(M)" prob="17"/>
+			<item_t name="ChainHose(W)" prob="17"/>
+			<item_t name="TowerShield" prob="14"/>
+		</tier_t>
+		<tier_t type="primary" prob="30">
+			<item_t name="StoneOfXelima" prob="750"/>
+			<item_t name="StoneOfMerien" prob="350"/>
+			<item_t name="ZemstoneofSacrifice" prob="150"/>
+		</tier_t>
+		<tier_t type="secondary" prob="970">
+			<item_t name="MagicNecklace(DF+10)" prob="100"/>
+			<item_t name="MagicNecklace(MS10)" prob="100"/>
+			<item_t name="MagicNecklace(DM+1)" prob="100"/>
+			<item_t name="RingofOgrepower" prob="100"/>
+			<item_t name="RingofWizard" prob="100"/>
+			<item_t name="RubyRing" prob="100"/>
+			<item_t name="MagicWand(M.Shield)" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="28">
+			<item_t name="nothing" prob="1"/>
+			<item_t name="RingofDemonpower" prob="500"/>
+			<item_t name="RingofMage" prob="500"/>
+			<item_t name="EmeraldRing" prob="500"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="NecklaceOfIcePro" prob="300"/>
+			<item_t name="RingofDragonpower" prob="300"/>
+			<item_t name="RingofGrandMage" prob="300"/>
+			<item_t name="SwordofIceElemental" prob="200"/>
+			<item_t name="NecklaceOfIceEle" prob="50"/>
+			<item_t name="MerienShield" prob="25"/>
+			<item_t name="NecklaceOfMedusa" prob="3"/>
+			<item_t name="NecklaceOfXelima" prob="3"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Ice-Golem">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MagicWand(M.Shield)" prob="1000"/>
+			<item_t name="RingofMage" prob="75"/>
+			<item_t name="NecklaceOfIcePro" prob="30"/>
+			<item_t name="RingofGrandMage" prob="30"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Liche">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MagicWand(M.Shield)" prob="1000"/>
+			<item_t name="RingofGrandMage" prob="75"/>
+			<item_t name="MagicWand(MS30-LLF)" prob="40"/>
+			<item_t name="IceStormManual" prob="30"/>
+			<item_t name="SwordofIceElemental" prob="30"/>
+			<item_t name="NecklaceOfIcePro" prob="30"/>
+			<item_t name="NecklaceOfIceEle" prob="20"/>
+			<item_t name="RingofArchmage" prob="15"/>
+			<item_t name="NecklaceOfLiche" prob="15"/>
+			<item_t name="ResurWand(MS.10)" prob="10"/>
+			<item_t name="ResurWand(MS.20)" prob="8"/>
+			<item_t name="I.M.CManual" prob="4"/>
+			<item_t name="CancelManual" prob="3"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="MasterMage-Orc">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MagicWand(M.Shield)" prob="1000"/>
+			<item_t name="RingofGrandMage" prob="100"/>
+			<item_t name="MagicWand(MS30-LLF)" prob="80"/>
+			<item_t name="RingofArchmage" prob="30"/>
+			<item_t name="I.M.CManual" prob="4"/>
+			<item_t name="CancelManual" prob="3"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Mountain-Giant">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="2000"/>
+			<item_t name="RubyRing" prob="500"/>
+			<item_t name="NecklaceOfMerien" prob="20"/>
+			<item_t name="NecklaceOfAirEle" prob="15"/>
+			<item_t name="MerienPlateMailM" prob="5"/>
+			<item_t name="MerienPlateMailW" prob="5"/>
+			<item_t name="MerienShield" prob="10"/>
+			<item_t name="GiantBattleHammer" prob="5"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Orge">
+		<tier_t type="secondary" prob="998">
+			<item_t name="OgreHair" prob="25"/>
+			<item_t name="OgreHeart" prob="20"/>
+			<item_t name="OgreMeat" prob="15"/>
+			<item_t name="OgreLeather" prob="15"/>
+			<item_t name="OgreTeeth" prob="10"/>
+			<item_t name="OgreClaw" prob="10"/>
+			<item_t name="nothing" prob="1000"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="MagicNecklace(DF+10)" prob="150"/>
+			<item_t name="MagicNecklace(RM10)" prob="150"/>
+			<item_t name="MagicNecklace(DM+1)" prob="100"/>
+			<item_t name="MagicNecklace(MS10)" prob="100"/>
+			<item_t name="RingofOgrepower" prob="75"/>
+			<item_t name="NecklaceOfLightPro" prob="25"/>
+			<item_t name="NecklaceOfFirePro" prob="25"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Orc">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="OrcMeat" prob="35"/>
+			<item_t name="OrcLeather" prob="25"/>
+			<item_t name="OrcTeeth" prob="20"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="6000"/>
+			<item_t name="RubyRing" prob="300"/>
+			<item_t name="RingofWizard" prob="300"/>
+			<item_t name="RingofOgrepower" prob="300"/>
+			<item_t name="LuckyGoldRing" prob="30"/>
+			<item_t name="SapphireRing" prob="30"/>
+			<item_t name="EmeraldRing" prob="10"/>
+			<item_t name="RingofMage" prob="10"/>
+			<item_t name="RingofDemonpower" prob="10"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Rudolph">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="MagicNecklace(DF+10)" prob="125"/>
+			<item_t name="MagicNecklace(RM10)" prob="125"/>
+			<item_t name="RingofOgrepower" prob="15"/>
+			<item_t name="MagicNecklace(DM+1)" prob="10"/>
+			<item_t name="MagicNecklace(MS10)" prob="10"/>
+			<item_t name="NecklaceOfLightPro" prob="5"/>
+			<item_t name="NecklaceOfFirePro" prob="5"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Scorpion">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="ScorpionMeat" prob="20"/>
+			<item_t name="ScorpionSkin" prob="12"/>
+			<item_t name="ScorpionPincers" prob="10"/>
+			<item_t name="ScorpionSting" prob="9"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="6000"/>
+			<item_t name="RubyRing" prob="200"/>
+			<item_t name="RingofWizard" prob="200"/>
+			<item_t name="RingofOgrepower" prob="200"/>
+			<item_t name="LuckyGoldRing" prob="30"/>
+			<item_t name="SapphireRing" prob="30"/>
+			<item_t name="RingofMage" prob="20"/>
+			<item_t name="RingofDemonpower" prob="20"/>
+			<item_t name="EmeraldRing" prob="12"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Skeleton">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="SkeletonBones" prob="30"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="4000"/>
+			<item_t name="RubyRing" prob="200"/>
+			<item_t name="RingofWizard" prob="200"/>
+			<item_t name="RingofOgrepower" prob="200"/>
+			<item_t name="LuckyGoldRing" prob="30"/>
+			<item_t name="SapphireRing" prob="30"/>
+			<item_t name="RingofMage" prob="20"/>
+			<item_t name="RingofDemonpower" prob="20"/>
+			<item_t name="EmeraldRing" prob="15"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Slime">
+		<tier_t type="primary" prob="300">
+			<item_t name="Gold" prob="100"/>
+		</tier_t>
+		<tier_t type="primary" prob="630">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="primary" prob="70">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="500">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="500">
+			<item_t name="nothing" prob="300"/>
+			<item_t name="SlimeJelly" prob="100"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Stalker">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="100"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="700"/>
+			<item_t name="GoldenAxe(LLF)" prob="300"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Stone-Golem">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="StoneGolemPiece" prob="18"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="10000"/>
+			<item_t name="NecklaceOfStoneGol" prob="100"/>
+			<item_t name="NecklaceOfMerien" prob="20"/>
+			<item_t name="NecklaceOfAirEle" prob="20"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Tigerworm">
+		<tier_t type="primary" prob="970">
+			<item_t name="nothing" prob="1400"/>
+			<item_t name="PlateMail(M)" prob="17"/>
+			<item_t name="PlateMail(W)" prob="17"/>
+			<item_t name="Hauberk(M)" prob="17"/>
+			<item_t name="Hauberk(W)" prob="17"/>
+			<item_t name="PlateLeggings(M)" prob="17"/>
+			<item_t name="PlateLeggings(W)" prob="17"/>
+			<item_t name="ChainHose(M)" prob="17"/>
+			<item_t name="ChainHose(W)" prob="17"/>
+			<item_t name="TowerShield" prob="14"/>
+		</tier_t>
+		<tier_t type="primary" prob="30">
+			<item_t name="StoneOfXelima" prob="750"/>
+			<item_t name="StoneOfMerien" prob="350"/>
+			<item_t name="ZemstoneofSacrifice" prob="150"/>
+		</tier_t>
+		<tier_t type="secondary" prob="970">
+			<item_t name="MagicNecklace(DF+10)" prob="138"/>
+			<item_t name="MagicNecklace(MS10)" prob="138"/>
+			<item_t name="MagicNecklace(DM+1)" prob="138"/>
+			<item_t name="RingofOgrepower" prob="138"/>
+			<item_t name="RingofWizard" prob="138"/>
+			<item_t name="RubyRing" prob="138"/>
+			<item_t name="MagicWand(M.Shield)" prob="138"/>
+			<item_t name="EmeraldRing" prob="30"/>
+		</tier_t>
+		<tier_t type="secondary" prob="8">
+			<item_t name="nothing" prob="1"/>
+			<item_t name="RingofDragonpower" prob="500"/>
+			<item_t name="RingofGrandMage" prob="500"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="NecklaceOfMerien" prob="150"/>
+			<item_t name="RingoftheXelima" prob="100"/>
+			<item_t name="I.M.CManual" prob="90"/>
+			<item_t name="E.S.W.Manual" prob="70"/>
+			<item_t name="XelimaBlade" prob="60"/>
+			<item_t name="XelimaAxe" prob="60"/>
+			<item_t name="XelimaRapier" prob="60"/>
+			<item_t name="MerienPlateMailM" prob="30"/>
+			<item_t name="MerienPlateMailW" prob="30"/>
+			<item_t name="MerienShield" prob="60"/>
+			<item_t name="CancelManual" prob="40"/>
+			<item_t name="GiantBattleHammer" prob="40"/>
+			<item_t name="NecklaceOfMedusa" prob="40"/>
+			<item_t name="NecklaceOfXelima" prob="40"/>
+			<item_t name="RingofArchmage" prob="20"/>
+			<item_t name="RingoftheAbaddon" prob="5"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Troll">
+		<tier_t type="secondary" prob="998">
+			<item_t name="TrollMeat" prob="12"/>
+			<item_t name="TrollLeather" prob="10"/>
+			<item_t name="TrollClaw" prob="8"/>
+			<item_t name="TrollHeart" prob="6"/>
+			<item_t name="nothing" prob="1000"/>
+		</tier_t>
+		<tier_t type="secondary" prob="2">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="RubyRing" prob="100"/>
+			<item_t name="RingofWizard" prob="100"/>
+			<item_t name="RingofOgrepower" prob="100"/>
+			<item_t name="LuckyGoldRing" prob="30"/>
+			<item_t name="SapphireRing" prob="30"/>
+			<item_t name="RingofMage" prob="30"/>
+			<item_t name="RingofDemonpower" prob="30"/>
+			<item_t name="EmeraldRing" prob="10"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Unicorn">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="900"/>
+			<item_t name="UnicornLeather" prob="25"/>
+			<item_t name="UnicornMeat" prob="20"/>
+			<item_t name="UnicornHeart" prob="15"/>
+			<item_t name="UnicornHorn" prob="1"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="1000"/>
+			<item_t name="NecklaceOfAirEle" prob="80"/>
+			<item_t name="NecklaceOfKloness" prob="25"/>
+			<item_t name="MerienPlateMailM" prob="10"/>
+			<item_t name="MerienPlateMailW" prob="10"/>
+			<item_t name="LightingBlade" prob="17"/>
+			<item_t name="KlonessWand(MS.10)" prob="15"/>
+			<item_t name="KlonessAxe" prob="15"/>
+			<item_t name="KlonessBlade" prob="15"/>
+			<item_t name="KlonessEsterk" prob="15"/>
+			<item_t name="KlonessWand(MS.20)" prob="12"/>
+			<item_t name="MerienShield" prob="10"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="WereWolf">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="2000"/>
+			<item_t name="WerewolfMeat" prob="50"/>
+			<item_t name="WerewolfHeart" prob="45"/>
+			<item_t name="WerewolfTeeth" prob="45"/>
+			<item_t name="WerewolfClaw" prob="40"/>
+			<item_t name="WerewolfTail" prob="35"/>
+			<item_t name="WerewolfLeather" prob="30"/>
+			<item_t name="WerewolfNail" prob="25"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="600"/>
+			<item_t name="GoldenAxe(LLF)" prob="400"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Wyvern" num="5">
+		<tier_t type="secondary" prob="980">
+			<item_t name="Gold" prob="120"/>
+			<item_t name="ZemstoneofSacrifice" prob="100"/>
+			<item_t name="StoneOfMerien" prob="100"/>
+			<item_t name="StoneOfXelima" prob="80"/>
+			<item_t name="MagicWand(M.Shield)" prob="50"/>
+			<item_t name="AcientTablet(LU)" prob="20"/>
+			<item_t name="AcientTablet(LD)" prob="20"/>
+			<item_t name="AcientTablet(RU)" prob="20"/>
+			<item_t name="AcientTablet(RD)" prob="20"/>
+			<item_t name="LuckyGoldRing" prob="40"/>
+			<item_t name="SapphireRing" prob="40"/>
+			<item_t name="RubyRing" prob="40"/>
+			<item_t name="GoldenAxe(LLF)" prob="40"/>
+			<item_t name="MagicNecklace(MS10)" prob="40"/>
+			<item_t name="MagicNecklace(DM+1)" prob="40"/>
+			<item_t name="MagicNecklace(DF+10)" prob="40"/>
+			<item_t name="MagicNecklace(RM10)" prob="40"/>
+			<item_t name="EmeraldRing" prob="15"/>
+		</tier_t>
+		<tier_t type="secondary" prob="20">
+			<item_t name="RingofWizard" prob="1000"/>
+			<item_t name="RingofGrandMage" prob="150"/>
+			<item_t name="NecklaceOfIcePro" prob="150"/>
+			<item_t name="SwordofIceElemental" prob="70"/>
+			<item_t name="NecklaceOfIceEle" prob="50"/>
+			<item_t name="LightingBlade" prob="30"/>
+			<item_t name="IceStormManual" prob="15"/>
+			<item_t name="RingofArchmage" prob="5"/>
+			<item_t name="StormBringer" prob="4"/>
+		</tier_t>
+	</npc_t>
+	<npc_t name="Zombie">
+		<tier_t type="secondary" prob="999">
+			<item_t name="nothing" prob="1000"/>
+		</tier_t>
+		<tier_t type="secondary" prob="1">
+			<item_t name="nothing" prob="1500"/>
+			<item_t name="NecklaceOfPoisonPro" prob="15"/>
+			<item_t name="NecklaceOfSufferent" prob="5"/>
+			<item_t name="NecklaceOfMedusa" prob="1"/>
+		</tier_t>
+	</npc_t>
+</droplist>
