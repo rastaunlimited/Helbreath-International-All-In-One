@@ -1,0 +1,233 @@
+body {
+	color:#B2B7B7;
+	height:100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background: black url(../img/bck2.jpg)  top center repeat-y;
+}
+* {margin: 0px;padding: 0px;}
+
+p {
+
+}
+a {
+	color:#A5AAAA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#container {
+	margin: 0px auto;
+	width: 1024px;
+}
+
+#header{
+	position: relative;
+	margin: 0px auto 5px;
+	height:230px;
+	width:990px;
+	background-image: url(../img/top5.jpg);
+}
+
+#mainmenu {
+	position: absolute;
+	left: 195px; 
+	top: 199px;
+}
+
+#onlinestat {
+	position: absolute; 
+	left: 400px; 
+	top: 184px; 
+}
+
+#timeblock {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0A0;
+	position: absolute;
+	top: 205px;
+	right: 33px;
+}
+
+#content{
+	margin: 0px auto;
+	width:800px;
+}
+
+.clear{
+	clear:both;
+}
+
+h4{
+	padding: 20px 0 5px;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 { color:#DDCA44;}
+
+h1 { font-size: 2em;}
+h2 { font-size: 1.5em;}
+h3 { font-size: 1.17em;}
+h4 {}
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+/********************* post ****************************/
+.post{
+	margin-bottom:12px;
+	text-align: justify;
+}
+.postheader{
+	background-image:url(../img/posttop.gif);
+	display:block;
+	width:800px;
+	height:33px;
+}
+.postheader h1{
+	text-align: center;
+	padding: 8px 0px 0px 0px;
+	font-family: Arial, Helvetica, serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.postcontent{
+	background-image:url(../img/postmiddle.gif);
+	background-repeat: repeat-y;
+	padding: 5px 20px 0 20px;
+	height:100%;
+}
+
+.postcontent ul{
+	margin-left:30px;
+	margin-top:5px;
+}
+
+.postcontent ol{
+	margin-left:20px;
+	margin-top:5px;
+}
+
+.postfooter{
+	background-image:url(../img/postbottom.gif);
+	background-repeat: no-repeat;
+	display:block;
+	width:800px;
+	height:15px;
+}
+/********************* footer ****************************/
+#footer{
+	width:1000px;
+	text-align:center;
+}
+#footer ul{
+	display:block;
+	margin-left:190px;
+}
+#footer ul li{
+	display:inline;
+	text-align:center;
+	margin:auto;
+	width:auto;
+	border-right: 1px solid #6b7272;	
+}
+
+#footer ul li a{
+	display:inline;
+	text-align:center;
+	text-decoration:none;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
+#footer ul li a:hover{
+	text-decoration:underline;
+}
+#footer span{
+	color:#828787;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align:center;
+	width:1000px;
+	display:block;
+	padding: 15px 0px;
+}
+#footer img{
+	border: 0px;
+}
+
+.online, .offline { width: 190px; text-align: center; }
+.online { color: #0A0; }
+.offline { color: #900; }
+
+/******************** tables **********************************/
+.elv  {color:#4040FF }
+.ares {color:#D21010 }
+.rax  {color:#D210D2 }
+.trav {color:#808080 }
+
+tr.row1 td{
+	text-align:center;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	border-color: #321717;
+}
+.tabletype1 { margin: 10px auto 6px;}
+
+
+.tabletype1 .tbltopleft {background-image: url('../img/t-topleft.gif'); width: 4px}
+.tabletype1 .tbltop {background-image: url('../img/t-top.gif'); height:4px}
+.tabletype1 .tbltopright {background-image: url('../img/t-topright.gif'); width: 4px}
+.tabletype1 .tblleft {background-image: url('../img/t-left.gif')}
+.tabletype1 .tblright {background-image: url('../img/t-right.gif')}
+.tabletype1 .tblbottomleft {background-image: url('../img/t-bottomleft.gif'); width: 4px}
+.tabletype1 .tblbottom {background-image: url('../img/t-bottom.gif'); height:4px}
+.tabletype1 .tblbottomright {background-image: url('../img/t-bottomright.gif'); width: 4px}
+
+/*** inner table ***/
+.tabletype1 table {}
+.tabletype1 th { 
+	text-align:center;
+	color: #ddca44; 
+	font-size: 10pt;
+	font-family: arial,helvetica,sans-serif;
+	font-weight: bold;
+	background-color: #2E2D2B;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5D5D5D #5D5D5D #1E1D1C #1E1D1C;
+	padding: 3px;
+}
+.tabletype1 table td{ text-align:center; border-style: solid; border-width: 0px 1px 1px 0px; border-color: #321717; padding: 0px 8px;}
+.tabletype1 tr.row0 { background-color: #181818; }
+.tabletype1 tr.row1 { }
+
+/*****/
+.rulelist li{ padding: 0px 0px 5px; }
+
+.maptable{ margin: auto; }
+.maptable th{ padding: 8px 0px 0px 0px; }
+
+.npc, .npc table{ width: 100%; margin:auto; text-align:center; }
+/******************** armors **********************************/
+
+#armors p, #alchemy p {
+	padding: 10px 10px 10px 20px;
+}
+#armors .attribtitle { 
+	padding: 0px; 
+	color: #ddd;
+	text-decoration: underline;
+}
+
+hr { margin: 10px auto; }
+
+.contents li{
+	margin-left: 10px;
+	color: #ddd;
+}
+

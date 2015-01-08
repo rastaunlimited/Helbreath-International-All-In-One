@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import "default.css";
+
+ul.dropdown a,
+ul.dropdown span {
+	display: block;
+	padding: 6px 10px 3px 5px;
+}
+
+ul.dropdown li {
+	padding: 0;
+	border: none;
+}
+
+ul.dropdown ul a,
+ul.dropdown ul span {
+	padding: 4px;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+	color: #fff;
+}
+
+ul.dropdown ul {
+	margin-top: 0;
+}
+
+ul.dropdown li.hover *.open {
+	background-image: url(menuselected.gif);
+	background-repeat: repeat-x;
+	color: #fff;
+}
+
+ul.dropdown li:hover > *.dir {
+	background-image: url(menuselected.gif);
+	background-repeat: repeat-x;
+	color: #fff;
+}
