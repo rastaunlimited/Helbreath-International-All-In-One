@@ -1,0 +1,110 @@
+	num	name	mana	reqint	cost				OnMenu
+magic	0	Magic-Missile	8	18	20	4	5	6	1
+magic	1	Heal	15	20	20	4	5	6	1
+magic	2	Create-Food	18	18	20	4	5	6	1
+magic	3	GM-Kill	10	59	-1	4	5	6	0
+magic	4	Mass-GM-Kill	10	59	-1	4	5	6	0
+magic	5	No-Spell5	201	59	-1	4	5	6	0
+magic	6	No-Spell6	201	59	-1	4	5	6	0
+magic	7	No-Spell7	201	59	-1	4	5	6	0
+magic	8	No-Spell8	201	59	-1	4	5	6	0
+magic	9	No-Spell9	201	59	-1	4	5	6	0
+
+magic	10	Energy-Bolt	15	24	40	4	5	6	1
+magic	11	Staminar-Drain	14	22	40	4	5	6	1
+magic	12	Recall	15	20	24	4	5	6	1
+magic	13	Defense-Shield	19	26	40	4	5	6	1
+magic	14	Celebrating-Light	20	25	80	4	5	6	1
+magic	15	No-Spell15	201	59	-1	4	5	6	0
+magic	16	No-Spell16	201	59	-1	4	5	6	0
+magic	17	No-Spell17	201	59	-1	4	5	6	0
+magic	18	No-Spell18	201	59	-1	4	5	6	0
+magic	19	No-Spell19	201	59	-1	4	5	6	0
+
+magic	20	Fire-Ball	27	26	100	4	5	6	1
+magic	21	Great-Heal	28	28	100	4	5	6	1
+magic	22	No-Spell22	201	59	-1	4	5	6	0
+magic	23	Staminar-Recovery	20	20	60	4	5	6	1
+magic	24	Protection-From-Arrow	22	20	60	4	5	6	1
+magic	25	Hold-Person	24	26	100	4	5	6	1
+magic	26	Possession	25	26	100	4	5	6	1
+magic	27	Poison	28	29	140	4	5	6	1
+magic	28	Great-Staminar-Recov.	45	30	160	4	5	6	1
+magic	29	No-Spell29	201	59	-1	4	5	6	0
+
+magic	30	Fire-Strike	36	34	200	4	5	6	1
+magic	31	Summon-Creature	35	38	200	4	5	6	1
+magic	32	Invisibility	31	30	160	4	5	6	1
+magic	33	Protection-From-Magic	35	32	170	4	5	6	1
+magic	34	Detect-Invisibility	33	30	140	4	5	6	1
+magic	35	Paralyze	35	36	200	4	5	6	1
+magic	36	Cure	32	35	140	4	5	6	1
+magic	37	Lightning-Arrow	32	38	220	4	5	6	1
+magic	38	Tremor	34	33	200	4	5	6	1
+magic	39	No-Spell39	201	59	-1	4	5	6	0
+
+magic	40	Fire-Wall	42	45	240	4	5	6	1
+magic	41	Fire-Field	48	48	280	4	5	6	1
+magic	42	Confuse-Language	40	42	260	4	5	6	1
+magic	43	Lightning	44	47	340	4	5	6	1
+magic	44	Great-Defense-Shield	45	46	360	4	5	6	1
+magic	45	Chill-Wind	48	50	400	4	5	6	1
+magic	46	Poison-Cloud	48	49	360	4	5	6	1
+magic	47	Triple-Energy-Bolt	40	45	340	4	5	6	1
+magic	48	No-Spell48	201	59	-1	4	5	6	0
+magic	49	No-Spell49	201	59	-1	4	5	6	0
+
+magic	50	Berserk	57	59	440	4	5	6	1
+magic	51	Lightning-Bolt	58	58	500	4	5	6	1
+magic	52	No-Spell52	201	59	-1	4	5	6	0
+magic	53	Mass-Poison	54	52	420	4	5	6	1
+magic	54	Spike-Field	56	56	460	4	5	6	1
+magic	55	Ice-Storm	58	59	-1	4	5	6	0
+magic	56	Mass-Lightning-Arrow	55	53	600	4	5	6	1
+magic	57	Ice-Strike	59	60	840	4	5	6	1
+magic	58	No-Spell58	201	59	-1	4	5	6	0
+magic	59	No-Spell59	201	59	-1	4	5	6	0
+
+magic	60	Energy-Strike	65	67	1000	4	5	6	1
+magic	61	Mass-Fire-Strike	80	85	-1	4	5	6	0
+magic	62	Confusion	78	75	1500	4	5	6	1
+magic	63	Mass-Chill-Wind	90	93	1960	4	5	6	1
+magic	64	Earthworm-Strike	80	97	2400	4	5	6	1
+magic	65	Absolute-Magic-Protect.	90	112	2700	4	5	6	1
+magic	66	Armor-Break	90	97	4000	4	5	6	1
+magic	67	Scan	50	70	4000	4	5	6	1
+magic	68	No-Spell68	201	59	-1	4	5	6	0
+magic	69	No-Spell69	201	59	-1	4	5	6	0
+
+magic	70	Bloody-Shock-Wave	120	105	-1	4	5	6	0
+magic	71	Mass-Confusion	125	130	3000	4	5	6	1
+magic	72	Mass-Ice-Strike	120	133	4200	4	5	6	1
+magic	73	Cloud-Kill	130	120	4000	4	5	6	1
+magic	74	Lightning-Strike	90	123	7000	4	5	6	1
+magic	75	Ice-Whirlwind	120	200	-1	4	5	6	0
+magic	76	Cancellation	120	135	-200	4	5	6	0
+magic	77	Illusion-Movement	150	160	5600	4	5	6	1
+magic	78	No-Spell78	201	59	-1	4	5	6	0
+magic	79	No-Spell79	201	59	-1	4	5	6	0
+
+magic	80	Illusion	143	150	5400	4	5	6	1
+magic	81	Meteor-Strike	120	169	8000	4	5	6	1
+magic	82	Mass-Magic-Missile	160	185	8400	4	5	6	1
+magic	83	Inhibition-Casting	180	180	-1	4	5	6	0
+magic	84	Air-Blast	130	178	-1	4	5	6	0
+magic	85	No-Spell85	201	59	-1	4	5	6	0
+magic	86	No-Spell86	201	59	-1	4	5	6	0
+magic	87	No-Spell87	201	59	-1	4	5	6	0
+magic	88	No-Spell88	201	59	-1	4	5	6	0
+magic	89	No-Spell89	201	59	-1	4	5	6	0
+
+magic	90	Mass-Illusion	200	180	7000	4	5	6	1
+magic	91	Blizzard	170	195	8600	4	5	6	1
+magic	92	Absolute-Protect-Arrow	90	59	-1	4	5	6	0
+magic	93	No-Spell93	201	59	-1	4	5	6	0
+magic	94	Resurrection	200	0	-1	4	5	6	0
+magic	95	Mass-Illusion-Movement	200	200	7600	4	5	6	1
+magic	96	Earth-Shock-Wave	180	200	-1	4	5	6	0
+magic	97	Greater-Heal	250	59	-1	4	5	6	0
+magic	98	No-Spell98	201	59	-1	4	5	6	0
+magic	99	No-Spell99	201	59	-1	4	5	6	0
