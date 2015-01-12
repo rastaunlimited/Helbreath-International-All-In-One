@@ -14,6 +14,7 @@ How To Install
 
 2.)Install Your Mysql DB Tools
 
+XAMPP Mysql Default User: root Pass: Blank
 3.)Run Run_Me.sql
 
 4.)Edit Server Config Ip
@@ -24,3 +25,8 @@ How To Install
     2.)GM.cfg (client)
       log-server-address      = Your External Ip (Internal If Behind Router & You Are Hoster)
       game-server-mode	      = INTERNET (or LAN If Behind Router)
+      
+How To Run The Server
+     1.) Start login.exe
+        Enter Root For User Password Blank
+     2.) Start Each Map   
