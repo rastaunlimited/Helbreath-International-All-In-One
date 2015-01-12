@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `account_database` (
   `LoginIpAddress` varchar(20) NOT NULL DEFAULT '',
   `IsGMAccount` smallint(1) NOT NULL DEFAULT '0',
   `cash` int(10) unsigned NOT NULL DEFAULT '0',
-  `CreateDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `ValidDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LoginDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `BlockDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `Email` varchar(50) NOT NULL DEFAULT '',
