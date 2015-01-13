@@ -21,6 +21,7 @@ DROP TABLE IF EXISTS `account_database`;
 CREATE TABLE IF NOT EXISTS `account_database` (
   `name` varchar(10) NOT NULL DEFAULT '',
   `password` varchar(10) NOT NULL DEFAULT '1',
+  `WorldName` varchar(10) NOT NULL DEFAULT 'WS1',
   `AccountID` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `LoginIpAddress` varchar(20) NOT NULL DEFAULT '',
   `IsGMAccount` smallint(1) NOT NULL DEFAULT '0',
