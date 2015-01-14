@@ -54,7 +54,7 @@ ColSort_MainForm.ListTables<|||>1<|||>0,0
 dbtreewidth<|||>3<|||>346
 ExportSQL_CreateDatabases<|||>3<|||>1
 ExportSQL_CreateTables<|||>3<|||>1
-ExportSQL_Filenames<|||>1<|||>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>
+ExportSQL_Filenames<|||>1<|||>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>
 Servers\Unnamed\SessionCreated<|||>1<|||>2015-01-12 00:54:06
 Servers\Unnamed\Host<|||>1<|||>127.0.0.1
 Servers\Unnamed\WindowsAuth<|||>3<|||>0
@@ -82,7 +82,7 @@ Servers\Unnamed\SSL_Key<|||>1<|||>
 Servers\Unnamed\SSL_Cert<|||>1<|||>
 Servers\Unnamed\SSL_CA<|||>1<|||>
 Servers\Unnamed\ServerVersionFull<|||>1<|||>5.6.21 - MySQL Community Server (GPL)
-Servers\Unnamed\ConnectCount<|||>3<|||>7
+Servers\Unnamed\ConnectCount<|||>3<|||>8
 Servers\Unnamed\ServerVersion<|||>3<|||>50621
-Servers\Unnamed\LastConnect<|||>1<|||>2015-01-13 08:02:27
+Servers\Unnamed\LastConnect<|||>1<|||>2015-01-14 15:44:16
 Servers\Unnamed\lastUsedDB<|||>1<|||>helbreath
