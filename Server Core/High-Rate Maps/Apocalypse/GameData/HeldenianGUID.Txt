@@ -1,0 +1,4 @@
+Heldenian-GUID = 0
+Heldenian-Type1-Winner = 0
+Heldenian-Type2-Winner = 0
+Heldenian-LastType = 0

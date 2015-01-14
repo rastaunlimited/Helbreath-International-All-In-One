@@ -1,0 +1,76 @@
+[MAP-INFO]
+
+map-location  = icebound
+level-limit   = 20
+
+fixed-dayornight-mode = 0
+
+initial-point = 1  264 260
+
+//-Teleportation-Set----SX-----SY-----DestMapName---------DX-----DY----Dir---;
+
+teleport-loc     =     260    264     middleland          455    279   5
+teleport-loc     =     261    264     middleland          455    279   5
+teleport-loc     =     262    264     middleland          455    279   5
+teleport-loc     =     263    264     middleland          455    279   5
+teleport-loc     =     264    264     middleland          455    279   5
+teleport-loc     =     265    264     middleland          455    279   5
+teleport-loc     =     266    264     middleland          455    279   5
+teleport-loc     =     267    264     middleland          455    279   5
+teleport-loc     =     268    264     middleland          455    279   5
+teleport-loc     =     269    264     middleland          455    279   5
+
+
+//-WayPoint-Set---------Num-----X-----Y----;
+waypoint          =     0       55    94
+waypoint          =     1       113   76
+waypoint          =     2       156   104
+waypoint          =     3       187   140
+waypoint          =     4       161   164
+waypoint          =     5       135   169
+waypoint          =     6       109   191
+waypoint          =     7       98    162
+waypoint          =     8       64    137
+waypoint          =     9       198   105
+
+//-No-Attack-Area----------Num-----RECT-------------
+no-attack-area           = 1       258 259 272 263
+
+maximum-object		= 500
+random-mob-generator	= 1  14
+
+//-----------------------Num-Type-RECT---------------Mob-MobNum
+
+//øÕ¿Ãπ¯
+spot-mob-generator	= 1   1    28   23  81  59   	13	10
+
+//«¡∑ŒΩ∫∆Æ
+spot-mob-generator	= 2   1    51   85 105 136	30	10
+spot-mob-generator	= 3   1    225  63 269 109	30	10
+spot-mob-generator	= 4   1    159  79 197 171	30	10
+
+//∫Ò»¶¥ı
+spot-mob-generator	= 5   1    137 113 198 164	54	10
+spot-mob-generator	= 6   1    179  67 237 103	54	10
+spot-mob-generator	= 7   1     45 202  83 233	54	10
+
+
+//«ÿ∞Ò
+spot-mob-generator	= 8   1    215 137 262 166	11	10
+spot-mob-generator	= 9   1    108 240 165 261	11	10
+spot-mob-generator	= 10  1     35 165  71 234	11	10
+
+//DireBoar	    
+spot-mob-generator	= 11   1    174  26 236  83	53	10
+spot-mob-generator	= 12   1    102 219 164 277	53	10
+
+//≈‰≥¢
+spot-mob-generator	= 13   1    179 217 226 260	55	10
+spot-mob-generator	= 14   1     89 148 127 176	55	10
+
+//Ω∫≈Ê∞Ò∑Ω
+spot-mob-generator	= 15   1    198 170 243 206	12	10
+spot-mob-generator	= 16   1     50  72  86 137	12	10
+spot-mob-generator	= 17   1     94  54  152 98	12	10
+
+[END-MAP-INFO]

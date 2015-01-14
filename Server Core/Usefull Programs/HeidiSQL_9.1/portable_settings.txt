@@ -10,11 +10,11 @@ ColWidths_frmTableEditor.listColumns<|||>1<|||>44,100,156,90,60,65,50,119,130,14
 ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
 ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
 ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
-ColWidths_frmTableEditor.treeIndexes<|||>1<|||>808,100,80
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>341,100,80
 ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
 ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
 ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
-ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>568,80,100,80,80,80
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>101,80,100,80,80,80
 ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
 ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
 ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
@@ -52,6 +52,9 @@ ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
 ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
 ColSort_MainForm.ListTables<|||>1<|||>0,0
 dbtreewidth<|||>3<|||>346
+ExportSQL_CreateDatabases<|||>3<|||>1
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_Filenames<|||>1<|||>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>
 Servers\Unnamed\SessionCreated<|||>1<|||>2015-01-12 00:54:06
 Servers\Unnamed\Host<|||>1<|||>127.0.0.1
 Servers\Unnamed\WindowsAuth<|||>3<|||>0
@@ -79,7 +82,7 @@ Servers\Unnamed\SSL_Key<|||>1<|||>
 Servers\Unnamed\SSL_Cert<|||>1<|||>
 Servers\Unnamed\SSL_CA<|||>1<|||>
 Servers\Unnamed\ServerVersionFull<|||>1<|||>5.6.21 - MySQL Community Server (GPL)
-Servers\Unnamed\ConnectCount<|||>3<|||>6
+Servers\Unnamed\ConnectCount<|||>3<|||>7
 Servers\Unnamed\ServerVersion<|||>3<|||>50621
-Servers\Unnamed\LastConnect<|||>1<|||>2015-01-13 05:56:20
+Servers\Unnamed\LastConnect<|||>1<|||>2015-01-13 08:02:27
 Servers\Unnamed\lastUsedDB<|||>1<|||>helbreath

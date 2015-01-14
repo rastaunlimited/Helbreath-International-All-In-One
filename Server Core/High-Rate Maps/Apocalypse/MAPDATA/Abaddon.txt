@@ -1,0 +1,48 @@
+[MAP-INFO]
+
+map-location  = abaddon
+initial-point = 1  168 170
+
+//-Teleportation-Set----SX-----SY-----DestMapName---------DX-----DY----Dir---;
+
+//-WayPoint-Set---------Num-----X-----Y----;
+
+
+//-No-Attack-Area----------Num-----RECT-------------
+no-attack-area           = 1       164 166 172 174
+
+//------------------------Num-Type-waypoints--------------Mob-MobNum
+//타이거웜
+spot-mob-generator	= 1   1    74 23 138 52           52  20
+spot-mob-generator	= 2   1    30 115 86 146          52  20
+spot-mob-generator	= 3   1    141 68 173 118         52  20
+
+//헬클라우
+spot-mob-generator	= 4   1    23 71 68 117           51  20
+spot-mob-generator	= 5   1    120 43 174 73          51  20
+spot-mob-generator	= 6   1    127 113 178 145        51  20
+
+//아이스와이번
+spot-mob-generator	= 7   1    34 45 94 75            70  20
+
+//파이어와이번
+spot-mob-generator	= 8   1    75 134 133 170         71  20
+
+// 발로그_텐타클_미노타우르스
+spot-mob-generator	= 9   1    71 64 143 112          72  40
+spot-mob-generator	= 10  1    71 64 143 112          73  40
+spot-mob-generator	= 11  1    71 64 143 112          76  40
+
+
+maximum-object		= 200
+
+ApocalypseMobGenType    = 2
+//------------------------NpcID---RECT----------------------
+ApocalypseBossMob       = 71      79 76 136 107
+
+RecallImpossible        = 1
+ApocalypseMap 		= 1
+CitizenLimit		= 1
+fixed-dayornight-mode	= 1
+
+[END-MAP-INFO]

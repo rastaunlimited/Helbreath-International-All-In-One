@@ -1,0 +1,82 @@
+(2015: 1:12:12:51) - (!) INITIALIZING GAME SERVER...
+(2015: 1:12:12:51) - (!) Reading configuration file...
+(2015: 1:12:12:51) - (*) Game server name : Dungeon
+(2015: 1:12:12:51) - (*) Game server port : 3003
+(2015: 1:12:12:51) - (*) Game server address : 10.0.0.3
+(2015: 1:12:12:51) - (*) Log server address : 10.0.0.3
+(2015: 1:12:12:51) - (*) Log server port : 4000
+(2015: 1:12:12:51) - (*) Website address : helbreathint.net
+(2015: 1:12:12:51) - (*) Website script address : /onlinestatus.php
+(2015: 1:12:12:51) - (*) Website port : 80
+(2015: 1:12:12:51) - (*) Game server External IP : 174.62.197.86
+(2015: 1:12:12:51) - (*) Log server External address : 174.62.197.86
+(2015: 1:12:12:51) - (*) Add map (dglv2)   - Loading map info files...
+(2015: 1:12:12:51) - (*) Add map (dglv3)   - Loading map info files...
+(2015: 1:12:12:51) - (*) Add map (dglv4)   - Loading map info files...
+(2015: 1:12:12:51) - (*) Gate server port : 5656
+(2015: 1:12:12:51) - (!) Reading Notify Message list file...
+(2015: 1:12:12:51) - (!) Try to connect sub-log-socket(0)... Addr:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!!!) Sub-log-socket(0) connected.
+(2015: 1:12:12:51) - (!) Try to register game server(Dungeon)
+(2015: 1:12:12:51) - (!!!) Log Socket Connection Established Log#(0) Address:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!) ITEM configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) ITEM(Total:291) configuration - success!
+(2015: 1:12:12:51) - (!) ITEM configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) ITEM(Total:622) configuration - success!
+(2015: 1:12:12:51) - (!) ITEM configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) ITEM(Total:1100) configuration - success!
+(2015: 1:12:12:51) - (!) ITEM configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) ITEM(Total:0) configuration - success!
+(2015: 1:12:12:51) - (!) BUILD-ITEM configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) BuildItem(Total:97) configuration - success!
+(2015: 1:12:12:51) - (!) DupItemID file contents received. Now decoding...
+(2015: 1:12:12:51) - (!) DupItemID(Total:13) configuration - success!
+(2015: 1:12:12:51) - (!) MAGIC configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) MAGIC(Total:99) configuration - success!
+(2015: 1:12:12:51) - (!) Noticement file contents received. Now decoding...
+(2015: 1:12:12:51) - (!) Noticement Data Size: 439
+(2015: 1:12:12:51) - (!) NPC configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) NPC(Total:137) configuration - success!
+(2015: 1:12:12:51) - (!) POTION configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) POTION(Total:20) configuration - success!
+(2015: 1:12:12:51) - (!) QUEST configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) QUEST(Total:173) configuration - success!
+(2015: 1:12:12:51) - (!) SKILL configuration contents received. Now decoding...
+(2015: 1:12:12:51) - (!) SKILL(Total:23) configuration - success!
+(2015: 1:12:12:51) - (!!) CRAFTING(Total:38) configuration - success!
+(2015: 1:12:12:51) - (!) TeleportListConfig file contents received. Now decoding...
+(2015: 1:12:12:51) - (!) TELEPORT-LIST(Total:16) configuration - success!
+(2015: 1:12:12:51) - (!) Game Server registration to Log Server - Success! GSID[5]
+(2015: 1:12:12:51) - (!) Try to connect sub-log-socket(1)... Addr:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!!!) Sub-log-socket(1) connected.
+(2015: 1:12:12:51) - (!) Try to register game server socket(1) on ID[5]
+(2015: 1:12:12:51) - (!!!) Log Socket Connection Established Log#(1) Address:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!) Try to connect sub-log-socket(2)... Addr:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!!!) Sub-log-socket(2) connected.
+(2015: 1:12:12:51) - (!) Try to register game server socket(2) on ID[5]
+(2015: 1:12:12:51) - (!!!) Log Socket Connection Established Log#(2) Address:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!) Try to connect sub-log-socket(3)... Addr:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!!!) Sub-log-socket(3) connected.
+(2015: 1:12:12:51) - (!) Try to register game server socket(3) on ID[5]
+(2015: 1:12:12:51) - (!!!) Log Socket Connection Established Log#(3) Address:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!) Try to connect sub-log-socket(4)... Addr:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - (!!!) Sub-log-socket(4) connected.
+(2015: 1:12:12:51) - (!) Try to register game server socket(4) on ID[5]
+(2015: 1:12:12:51) - (!!!) Log Socket Connection Established Log#(4) Address:10.0.0.3  Port:5656
+(2015: 1:12:12:51) - Initializing drops list...
+(2015: 1:12:12:51) - Total drop items: 387
+(2015: 1:12:12:51) - Sending start message...
+(2015: 1:12:12:51) - (!) Map info file decoding(mapdata\dglv2.txt) - success! TL(63) WP(9) LNPC(0) MXO(999) RMG(1 / 5)
+(2015: 1:12:12:51) - (!) Map info file decoding(mapdata\dglv3.txt) - success! TL(12) WP(9) LNPC(0) MXO(700) RMG(1 / 9)
+(2015: 1:12:12:51) - (!) Map info file decoding(mapdata\dglv4.txt) - success! TL(9) WP(9) LNPC(0) MXO(600) RMG(1 / 10)
+(2015: 1:12:12:51) - (!) Cannot open Crusade Schedule file.
+(2015: 1:12:12:51) - (!) Reading CrusadeGUID file...
+(2015: 1:12:12:51) - CrusadeGUID = 1
+(2015: 1:12:12:51) - CrusadeWinnerSide = 0
+(2015: 1:12:12:51) - (!) Reading Heldenian-GUID file...
+(2015: 1:12:12:51) - (!!) Nobody Owned Heldenian In Last Type (1).
+(2015: 1:12:12:51) - (!!) Nobody Owned Heldenian In Last Type (2).
+(2015: 1:12:12:51) - (!!) Last Heldenian Type (No Last Type).
+(2015: 1:12:12:51) - (!) Cannot open Scheduler file.
+(2015: 1:12:12:51) - 
+(2015: 1:12:12:51) - (!) Game Server Activated.
