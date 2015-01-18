@@ -1,4 +1,4 @@
-LastSessions<|||>1<|||>Unnamed
+LastSessions<|||>1<|||>Unnamed|Unnamed
 LastActiveSession<|||>1<|||>Unnamed
 SessionManager_WindowWidth<|||>3<|||>510
 ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
@@ -20,12 +20,12 @@ ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
 ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
 CoolBand0Index<|||>3<|||>0
 CoolBand0Break<|||>3<|||>1
-CoolBand0Width<|||>3<|||>1434
+CoolBand0Width<|||>3<|||>818
 CoolBand1Index<|||>3<|||>1
 CoolBand1Break<|||>3<|||>1
-CoolBand1Width<|||>3<|||>1434
+CoolBand1Width<|||>3<|||>818
 querymemoheight<|||>3<|||>106
-MainWinMaximized<|||>3<|||>1
+MainWinMaximized<|||>3<|||>0
 MainWinOnMonitor<|||>3<|||>0
 ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
 ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
@@ -54,7 +54,7 @@ ColSort_MainForm.ListTables<|||>1<|||>0,0
 dbtreewidth<|||>3<|||>346
 ExportSQL_CreateDatabases<|||>3<|||>1
 ExportSQL_CreateTables<|||>3<|||>1
-ExportSQL_Filenames<|||>1<|||>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>
+ExportSQL_Filenames<|||>1<|||>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>C:\Users\anthony\Desktop\Helbreath-International-Server\trunk\Server Core\Run_Me.sql<{{{><}}}>
 Servers\Unnamed\SessionCreated<|||>1<|||>2015-01-12 00:54:06
 Servers\Unnamed\Host<|||>1<|||>127.0.0.1
 Servers\Unnamed\WindowsAuth<|||>3<|||>0
@@ -82,7 +82,8 @@ Servers\Unnamed\SSL_Key<|||>1<|||>
 Servers\Unnamed\SSL_Cert<|||>1<|||>
 Servers\Unnamed\SSL_CA<|||>1<|||>
 Servers\Unnamed\ServerVersionFull<|||>1<|||>5.6.21 - MySQL Community Server (GPL)
-Servers\Unnamed\ConnectCount<|||>3<|||>8
+Servers\Unnamed\ConnectCount<|||>3<|||>12
 Servers\Unnamed\ServerVersion<|||>3<|||>50621
-Servers\Unnamed\LastConnect<|||>1<|||>2015-01-14 15:44:16
+Servers\Unnamed\LastConnect<|||>1<|||>2015-01-16 08:49:30
 Servers\Unnamed\lastUsedDB<|||>1<|||>helbreath
+Servers\Unnamed\helbreath|char_database\Sort<|||>1<|||>1_MapLoc|
