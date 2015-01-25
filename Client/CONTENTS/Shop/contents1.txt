@@ -1,0 +1,10 @@
+Item  = RedPotion          3     0     4     2 8 0  0 0 0     0      0      6    1       5      30    -1     0   0
+Item  = BigRedPotion       3     0     4     2 8 0  0 0 0     0      0      6    2       33     100    -1     0   0
+Item  = BluePotion         3     0     5     2 8 0  0 0 0     0      0      6    3       5      30    -1     0   0
+Item  = BigBluePotion      3     0     5     2 8 0  0 0 0     0      0      6    4       33     100    -1     0   0
+Item  = GreenPotion        3     0     6     2 8 0  0 0 0     0      0      6    5       5      30    -1     0   0
+Item  = BigGreenPotion     3     0     6     2 8 0  0 0 0     0      0      6    6       33     100    -1     0   0
+Item  = DilutionPotion     3     0     9     23 20 0 0 0 0    0      0      6    5       200     30    -1     0   0
+Item = Baguette 7 0 7 2 8 10 0 0 0 1 0 6 8 5 17 -1 0 0
+Item = Meat 7 0 7 4 8 10 0 0 0 1 0 6 7 10 52 -1 0 0
+

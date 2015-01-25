@@ -1,0 +1,14 @@
+"Hello, welcome to Helbreath
+You look like you need some 
+help. Your bag (F6) has a few
+things to help you on your way
+some health potions (red), 
+mana potions (blue) and some 
+stamina potions (green). Stamina 
+will help you run. To move around
+click and hold the mouse down. To
+run you can press control R. I
+recommend you read through some
+of the things in the F1 menu to
+help you setup your character &
+tell you about how to attack things!"

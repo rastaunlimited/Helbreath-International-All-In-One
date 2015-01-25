@@ -1,0 +1,30 @@
+[MAP-INFO]
+
+map-location  = HRampart
+level-limit   = 1
+CitizenLimit		= 0
+HeldenianMap  =   1
+
+initial-point = 1  120 120
+
+//-Teleportation-Set----SX-----SY-----DestMapName---------DX-----DY----Dir---;
+
+teleport-loc     =     43    39     GodH          455    204   3
+teleport-loc     =     44    39     GodH          455    204   3
+teleport-loc     =     44    38     GodH          455    204   4
+teleport-loc     =     45    38     GodH          455    204   5
+teleport-loc     =     46    38     GodH          455    204   1
+teleport-loc     =     46    37     GodH          455    204   2
+
+//-heldenianDoor------Direction----X----Y
+
+HeldenianGateDoor  	3	 98	49
+HeldenianGateDoor  	3	 134	73
+HeldenianGateDoor  	3	 86	129
+HeldenianGateDoor  	3	 74	73
+
+
+maximum-object		= 999
+
+
+[END-MAP-INFO]

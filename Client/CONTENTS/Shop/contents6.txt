@@ -1,0 +1,28 @@
+Item  = Helm(W)               1     1     2     5 10 0 0 0 0   1500      0      21   0    300     5200     4     0      0
+Item  = FullHelm(W)           1     1     2    10 20 0 0 0 0   2000      0      21   1    500     8500    1     0      0
+Item  = KnightFullHelm(W)     1     1     2    12 22 0 0 0 0   2000      0      21   1    800     8500    1     0     80
+Item  = Wings-Helm(W)         1     1     2    15 22 0 0 0 0   2500      0      21   3    1000    13000    6     0    100
+Item  = Horned-Helm(W)        1     1     2    17 24 0 0 0 0   3500      0      21   2    1200    16000    5     0    120
+Item  = Hauberk(W)            1     3     2     8  1 1  1 1 1   300     0      11   2     200     1200    3     0      0
+Item  = WizardHauberk(W)      1     3     2    12 12 0 14 100 0 1000    0      11   2    600     1200    3     0     90   
+Item  = KnightHauberk(W)      1     3     2    12 12 0 11 100 0 1000    0      11   2    600     1200    3     0     70   
+Item  = LeatherArmor(W)       1     2     2     10 1 1  1 1 1   400     0      13   2     300     1500    3     0      0  
+Item  = ScaleMail(W)          1     2     2     20 1 1  1 1 1   600     0      13   4     400     2000    5     0      0  
+Item  = ChainMail(W)          1     2     2     30 1 1  1 1 1   1000    0      13   3    600     3000    4     0      0  
+Item  = PlateMail(W)          1     2     2     37 1 1  1 1 1   3000    0      13   5    1000    10000    6     0      0  
+Item  = KnightPlateMail(W)    1     2     2     40 42 0  0 0 0  3500    0      13   5    2000    10000    6     0     85  
+Item  = ChainHose(W)          1     4     2     6  1 1  1 1 1   500     0      12   3     200     1000    4     0      0    
+Item  = PlateLeggings(W)      1     4     2     12 1 1  1 1 1   1000    0      12   4    400     2000    5     0      0 
+Item  = KnightPlateLeg(W)     1     4     2     15 22 1  1 1 1  100     0      12   4    800     2000    5     0     80
+Item = WoodShield 1 7 2 8 1 1 1 1 1 300 0 3 0 25 800 1 0 0
+Item = LeatherShield 1 7 2 10 1 1 1 1 1 300 0 3 1 50 1000 2 0 0
+Item = TargeShield 1 7 2 13 1 1 1 1 1 500 0 3 2 75 1800 3 0 0
+Item = ScootermShield 1 7 2 16 1 1 1 1 1 500 0 3 3 125 2000 4 0 0
+Item = BlondeShield 1 7 2 18 1 1 1 1 1 500 0 3 4 175 2000 5 0 0
+Item = IronShield 1 7 2 22 1 1 1 1 1 500 0 3 5 250 2500 6 0 0
+Item = LagiShield 1 7 2 26 1 1 1 1 1 800 0 3 6 325 3000 7 0 0
+Item = KnightShield 1 7 2 30 1 1 1 1 1 800 0 3 7 450 3200 8 0 0
+Item = TowerShield 1 7 2 35 1 1 1 1 1 800 0 3 8 575 4000 9 0 0
+
+
+

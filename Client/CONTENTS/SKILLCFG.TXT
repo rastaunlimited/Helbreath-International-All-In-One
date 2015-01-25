@@ -1,0 +1,10 @@
+skill = 1  Agility              0 0 
+skill = 2  Prayer 		0 0 
+skill = 3  Mining          	0 1 
+skill = 4 Manufacturing   	0 2 
+skill = 5  Fishing         	0 1 
+skill = 6  Farming         	0 1
+skill = 7 Alchemy        	0 0 
+skill = 8 Crafting       	0 0 
+skill = 9  Summoning           	0 0 
+skill = 10 Pretend-Corpse       1 0
