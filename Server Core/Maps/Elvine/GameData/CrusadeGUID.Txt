@@ -1,2 +1,0 @@
-CrusadeGUID = 0
-winner-side = 0
