@@ -2477,7 +2477,7 @@ void CGame::OnTimer(char cType)
 			if ((m_cShutDownCode == 3) || (m_cShutDownCode == 4)) {
 				PutLogFileList("(!!!) AUTO-SERVER-REBOOTING!");
 				bInit();
-//				m_iAutoRebootingCount++;
+				m_iAutoRebootingCount++;
 			}
 			else {
 				if (m_iFinalShutdownCount == 0)	m_iFinalShutdownCount = 20;

@@ -608,7 +608,7 @@ void CLoginServer::OnClientRead(WORD ClientID)
 			mysql_close(&myConn);
 			return;
 		}
-		PutLogList("(ERROR) Processing client login...");
+		//PutLogList("(*) Processing client login...");
 
 		if(ProcessClientLogin((dataBuff+6), ClientID, myConn)){
 			char AccountName[15];
@@ -1348,9 +1348,9 @@ void CLoginServer::SendCharList(char* AccountName, WORD ClientID, MYSQL myConn)
 	DWORD ListSize = 0;
 	char Txt100[100], Txt500[500], GoodAccName[25], QueryConsult[200], Txt[250];
 
-	ZeroMemory(Txt100, sizeof(Txt100));
-	sprintf(Txt100, "(ERROR) Getting character list for account [%s].", AccountName);
-	PutLogList(Txt100);
+	//ZeroMemory(Txt100, sizeof(Txt100));
+	//sprintf(Txt100, "(*) Getting character list for account [%s].", AccountName);
+	//PutLogList(Txt100);
 	ZeroMemory(Txt500, sizeof(Txt500));
 	SendValue(Txt500, 0, DWORDSIZE, MSGID_RESPONSE_LOG);
 	SendValue(Txt500, 4, WORDSIZE, MSGTYPE_CONFIRM);
@@ -1467,7 +1467,7 @@ void CLoginServer::CreateNewCharacter(char *Data, WORD ClientID, MYSQL myConn)
 						ZeroMemory(QueryConsult, sizeof(QueryConsult));
 						sprintf(QueryConsult, "INSERT INTO `skill` ( `CharID` , `SkillID`, `SkillMastery` , `SkillSSN`)\
 											  VALUES (	'%lu' ,		'%u' ,		'%u'	 ,   '%lu'  );",
-											  CharID  ,  s	,  10  ,  0 );
+											  CharID  ,  s	,  1  ,  0 );
 						if(ProcessQuery(&myConn, QueryConsult) == -1) return;
 						QueryResult = mysql_store_result(&myConn);
 						SAFEFREERESULT(QueryResult);
@@ -1476,7 +1476,7 @@ void CLoginServer::CreateNewCharacter(char *Data, WORD ClientID, MYSQL myConn)
 						ZeroMemory(QueryConsult, sizeof(QueryConsult));
 						sprintf(QueryConsult, "INSERT INTO `skill` ( `CharID` , `SkillID`, `SkillMastery` , `SkillSSN`)\
 											  VALUES (   '%lu'   ,   '%u'   ,      '%u'      ,   '%lu'  );",
-											  CharID  ,  s	,  10  ,  0 );
+											  CharID  ,  s	,  1  ,  0 );
 						if(ProcessQuery(&myConn, QueryConsult) == -1) return;
 						QueryResult = mysql_store_result(&myConn);
 						SAFEFREERESULT(QueryResult);
@@ -1485,7 +1485,7 @@ void CLoginServer::CreateNewCharacter(char *Data, WORD ClientID, MYSQL myConn)
 						ZeroMemory(QueryConsult, sizeof(QueryConsult));
 						sprintf(QueryConsult, "INSERT INTO `skill` ( `CharID` , `SkillID`, `SkillMastery` , `SkillSSN`)\
 											  VALUES (   '%lu'   ,   '%u'   ,      '%u'      ,   '%lu'  );",
-											  CharID  ,  s	,  10  ,  0 );
+											  CharID  ,  s	,  1  ,  0 );
 						if(ProcessQuery(&myConn, QueryConsult) == -1) return;
 						QueryResult = mysql_store_result(&myConn);
 						SAFEFREERESULT(QueryResult);
@@ -1496,7 +1496,21 @@ void CLoginServer::CreateNewCharacter(char *Data, WORD ClientID, MYSQL myConn)
 				Item->MakeItemInfo("Dagger",1, 2, 0, 0, 0, 0, 0, 0, 300, 0, 0, FALSE, FALSE, 30, 30);
 				CreateNewItem(Item, CharID, myConn);
 				Item->ItemUniqueID = 0;
-				Item->MakeItemInfo("RedPotion",1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, FALSE, FALSE, 45, 30);
+				Item->MakeItemInfo("BigRedPotion",1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, FALSE, FALSE, 45, 30);
+				CreateNewItem(Item, CharID, myConn);
+				Item->ItemUniqueID = 0;
+				CreateNewItem(Item, CharID, myConn);
+				Item->ItemUniqueID = 0;
+				CreateNewItem(Item, CharID, myConn);
+				Item->ItemUniqueID = 0;
+				Item->MakeItemInfo("BigBluePotion",1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, FALSE, FALSE, 45, 30);
+				CreateNewItem(Item, CharID, myConn);
+				Item->ItemUniqueID = 0;
+				CreateNewItem(Item, CharID, myConn);
+				Item->ItemUniqueID = 0;
+				CreateNewItem(Item, CharID, myConn);
+				Item->ItemUniqueID = 0;
+				Item->MakeItemInfo("BigGreenPotion",1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, FALSE, FALSE, 45, 30);
 				CreateNewItem(Item, CharID, myConn);
 				Item->ItemUniqueID = 0;
 				CreateNewItem(Item, CharID, myConn);
@@ -1504,6 +1518,9 @@ void CLoginServer::CreateNewCharacter(char *Data, WORD ClientID, MYSQL myConn)
 				CreateNewItem(Item, CharID, myConn);
 				Item->ItemUniqueID = 0;
 				Item->MakeItemInfo("RecallScroll",1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, FALSE, FALSE, 60, 30);
+				Item->ItemUniqueID = 0;
+				Item->MakeItemInfo("Map",1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, FALSE, FALSE, 60, 30);
+				Item->ItemUniqueID = 0;
 				CreateNewItem(Item, CharID, myConn);
 				SAFEDELETE(Item);
 				wp = (WORD*)(Txt500+4);
@@ -1948,7 +1965,11 @@ void CLoginServer::OnTimer()
 				}
 				else if(Client[w]->IsPlaying){
 					if(GameServer[Client[w]->ConnectedServerID] == NULL) {
-//SAFEDELETE(Client[w]);//goback
+						ZeroMemory(log, sizeof(log));
+						sprintf(log, "(ERROR) Client(%s) was deleted with no savedata due to null response.", Client[w]->AccountName);
+						PutLogList(log, WARN_MSG, TRUE, ERROR_LOGFILE);
+						
+						SAFEDELETE(Client[w]);//goback
 					}
 					//else if(Client[w]->ForceDisconnRequestTime != 0 && (dwTime - Client[w]->ForceDisconnRequestTime) > MAX_FORCEDISCONN_WAIT_TIME) {SAFEDELETE(Client[w]);}
 				}
@@ -2071,10 +2092,10 @@ void CLoginServer::ProcessClientRequestEnterGame(char *Data, DWORD ClientID, MYS
 				} else {
 					SAFEDELETE(Client[AccountID]);
 				}
-				char LogBuff[250];
+			/*	char LogBuff[250];
 				ZeroMemory(LogBuff, sizeof(LogBuff));
 				sprintf(LogBuff, "(*) Process (Force Disconect) Client %s - %s, Enters Game Server At %s - %s", CharName, ClientIP, MapName, GameServerIP);
-				PutLogList(LogBuff);
+				PutLogList(LogBuff);*/
 
 				ZeroMemory(SendBuff, sizeof(SendBuff));
 				dwp = (DWORD*)SendBuff;
@@ -2597,15 +2618,16 @@ void CLoginServer::ProcessClientLogout(char *Data, BOOL save, int type, BYTE GSI
 		ZeroMemory(LogTxt, sizeof(LogTxt));
 		if(save){
 			SaveCharacter(Data, myConn);
-			sprintf(LogTxt, "(ERROR) Player(%s)[ID:%d] data saved Server Change.", CharName, AccountID);
-			PutLogList(LogTxt);
+			/*sprintf(LogTxt, "(&) Player(%s)[ID:%d] data saved Server Change.", CharName, AccountID);
+			PutLogList(LogTxt);*/
 		}
 		else{
 			sprintf(LogTxt, "(ERROR) Player(%s)[ID:%d] logout with no save.", CharName, AccountID);
 			PutLogList(LogTxt);
 		}
 		if(CountLogout) {
-			//SAFEDELETE(Client[AccountID]);
+			//crashed server
+			SAFEDELETE(Client[AccountID]);
 		} else {  
 			Client[AccountID]->IsOnServerChange = TRUE;
 			Client[AccountID]->Time = timeGetTime();
@@ -2654,7 +2676,7 @@ void CLoginServer::ConfirmCharEnterGame(char *Data, BYTE GSID)
 			Client[AccountID]->IsPlaying = TRUE;
 			Client[AccountID]->Time = timeGetTime();
 			ZeroMemory(log, sizeof(log));
-			sprintf(log, "(ERROR) Set character(%s)[ID:%d] status: playing.", Client[AccountID]->CharName, AccountID);
+			sprintf(log, "(*) Set character(%s)(%s)[ID:%d] status: playing.", Client[AccountID]->CharName, Client[AccountID]->ClientIP, AccountID);
 			PutLogList(log);               
 		}
 	}
